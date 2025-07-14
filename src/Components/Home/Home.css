@@ -1,0 +1,43 @@
+.hero-box {
+  background: linear-gradient(90deg, #2B6777 0%, rgba(13,14,18,0.6) 100%);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.hero-img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.6rem;
+  object-fit: cover;
+}
+
+.hero-title {
+  font-size: 2.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.hero-subtitle {
+  font-size: 1.25rem;
+  color: #e0e0e0;
+  margin-bottom: 1.5rem;
+}
+
+.btn-orange {
+  background-color: #075f77;
+  border: none;
+  color: #ecf0f1;
+  padding: 0.75rem 1.5rem;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-orange:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 576px) {
+  .hero-title { font-size: 2rem; }
+  .hero-subtitle { font-size: 1rem; }
+  .btn-orange { width: 10%; }
+}

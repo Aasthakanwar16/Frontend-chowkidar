@@ -1,0 +1,191 @@
+/* Style.css */
+
+/* Container responsive tweaks */
+.container {
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+/* Responsive form inputs */
+input,
+select {
+  font-size: 14px;
+  padding: 10px;
+  width: 100%; /* full width for input/select fields */
+  box-sizing: border-box;
+ 
+}
+
+/* Submit and Clear buttons */
+button {
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+/* Mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  h2 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .form-label {
+    font-size: 13px;
+    margin-left: 54px;
+  }
+
+  input,
+  select {
+    font-size: 1px;
+    width: 10%; /*  Full width on mobile too */
+    margin-left: 34px;
+  }
+
+  .btn {
+    width: 50% !important;
+     margin-left: 44px;
+  }
+
+  .gap-1 {
+    gap: 16px !important;
+  }
+}
+
+
+
+/* Background and layout */
+.exit-bg {
+  background: #f5f7fa;
+  min-height: 100vh;
+  padding-bottom: 30px;
+}
+
+.custom-card {
+  background: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Table headers */
+.table-header th {
+  background-color: #e8e8e8;
+  color: #333;
+  font-weight: 600;
+}
+
+/* Panel title */
+.panel-title {
+  font-weight: 600;
+  color: #2c3e50;
+}
+
+/* Delete button */
+.delete-btn {
+  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+/* Modal animation */
+@keyframes scaleFadeIn {
+  0% {
+    transform: scale(0.92);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+.animate-scale {
+  animation: scaleFadeIn 0.3s ease-in-out;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .custom-card {
+    padding: 1.5rem;
+    margin: 0 !important;
+  }
+
+  .exit-table {
+    font-size: 14px;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.6rem;
+  }
+
+  .search-btn {
+    width: 100%;
+    margin-top: 8px;
+  }
+
+  .modal-content {
+    margin: 10px;
+    border-radius: 16px;
+  }
+
+  .modal-body p {
+    font-size: 1rem;
+  }
+
+  .modal-body .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .btn-close {
+    font-size: 0.9rem;
+  }
+}
+/*guarddashbord*/
+.border-custom {
+  border: 2px solid #2B6777 !important;
+}
+
+.text-custom {
+  color: #2B6777 !important;
+}
+
+.enhanced-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.enhanced-card:hover {
+  transform: translateY(-5px);
+}
+
+.shadow-card {
+  border-radius: 12px;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+}
+
+.main-title {
+  color: #2B6777;
+}
+/* addentry*/
+.entry-form {
+  background: linear-gradient(to right, #e0f7fa, #ffffff);
+  border: 1px solid #d0e2f2;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}
+
+.entry-form h2 {
+  font-size: 1.8rem;
+}
+
+input::placeholder {
+  color: #999;
+}
+
+button:hover {
+  transform: scale(1.05);
+  transition: 0.3s ease;
+}

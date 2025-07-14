@@ -1,0 +1,30 @@
+.feature-card {
+  background: #458da1 ;
+  border-radius: 16px;
+  transition: all 0.3s ease-in-out;
+  border: 1px solid #eee;
+}
+
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.icon i {
+  color: #f44105;
+  transition: color 0.3s ease;
+}
+
+.feature-card:hover .icon i {
+  color: #ee4e04;
+}
+
+@media (max-width: 576px) {
+  .feature-card {
+    padding: 1.5rem 1rem;
+  }
+
+  .icon i {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,71 @@
+.about-box {
+  background: linear-gradient(to right, #f0f8ff, #ffffff);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+  padding: 3rem 2rem;
+  border-radius: 15px;
+  animation: fadeIn 1.2s ease-in-out;
+}
+
+/* Title Styling */
+.about-title {
+  font-size: 2.2rem;
+}
+
+/* Lead paragraph */
+.about-lead {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* Image styles */
+.about-img {
+  max-width: 320px;
+  height: auto;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-img:hover {
+  transform: scale(1.02);
+}
+
+/* List style */
+.about-list li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 576px) {
+  .about-box {
+    padding: 2rem 1rem;
+  }
+
+  .about-title {
+    font-size: 1.8rem;
+  }
+
+  .about-img {
+    max-width: 100%;
+    max-height: 240px;
+  }
+
+  .about-lead,
+  .about-list li {
+    font-size: 0.95rem;
+  }
+}

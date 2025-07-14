@@ -1,0 +1,184 @@
+/* Common styles for all cards and tables */
+.enhanced-card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgb(0 0 0 / 0.1);
+  transition: transform 0.2s ease-in-out;
+  background-color: #fff;
+}
+
+.enhanced-card:hover {
+  transform: translateY(-5px);
+}
+
+.enhanced-title {
+  font-weight: 600;
+  color: #212529;
+}
+
+.enhanced-number {
+  font-weight: 700;
+  color: #333;
+}
+
+/* Tables */
+.enhanced-table {
+  font-size: 0.9rem;
+}
+
+.table-row-hover:hover {
+  background-color: #f1f1f1;
+  cursor: pointer;
+}
+
+/* Text colors */
+.black-text {
+  color: #000 !important;
+}
+
+/* Shadow for cards */
+.shadow-card {
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+/* Outline cards for summary boxes */
+.outline-card {
+  border-width: 2px !important;
+}
+
+/* Responsive tweaks for small screens (mobile) */
+@media (max-width: 768px) {
+
+  /* Container padding adjustment */
+  .container {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    max-width: 100% !important;
+  }
+
+  /* Adjust cards in Currentparking summary */
+  .outline-card {
+    margin-bottom: 15px !important;
+  }
+
+  /* Make card titles and numbers a bit smaller */
+  .enhanced-title {
+    font-size: 1.1rem !important;
+  }
+
+  .enhanced-number {
+    font-size: 1.8rem !important;
+  }
+
+  /* Tables become horizontally scrollable */
+  .table-responsive {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Smaller font size in tables */
+  .enhanced-table {
+    font-size: 0.85rem !important;
+  }
+
+  /* Reduce button size in Dashboard quick action */
+  button.btn {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Header and spacing adjustments */
+  h1.main-title,
+  h2.fw-bold,
+  h3.mb-3,
+  h5.card-title {
+    font-size: 1.4rem !important;
+  }
+
+  /* Navbar top padding adjustment if overlapping */
+  body > div > div.d-flex.pt-5.me-5 {
+    padding-top: 4.5rem !important;
+  }
+
+  /* Summary cards: full width on mobile */
+  .row.g-4.mb-5 > div {
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  /* Adjust Recent Activities table padding */
+  .table > tbody > tr > td {
+    padding: 0.35rem !important;
+  }
+
+  /* Modal form fields spacing */
+  .modal-body form .mb-3 {
+    margin-bottom: 1rem !important;
+  }
+
+  /* Guards Management buttons full width */
+  .container.mt-5 button.btn {
+    width: 100% !important;
+    margin-bottom: 10px !important;
+  }
+
+  /* Modal button full width */
+  .modal-footer button.btn,
+  .modal-body button.btn {
+    width: 100% !important;
+  }
+}
+/*dashbord*/
+.enhanced-card {
+  background-color: #ffffff; /* Keep background white */
+  border: 2px solid #2B6777; /* Only border has the color */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.enhanced-card:hover {
+  transform: translateY(-5px);
+}
+
+.enhanced-card .card-title {
+  color: #2B6777;
+  font-weight: bold;
+}
+
+.enhanced-card .card-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #2B6777; 
+}
+/* guadmang*/
+.custom-form .form-group {
+  margin-bottom: 1.2rem;
+}
+
+.custom-form .form-control {
+  border-radius: 10px;
+  box-shadow: none;
+  border: 1px solid #ccc;
+  transition: border-color 0.2s;
+}
+
+.custom-form .form-control:focus {
+  border-color: #2B6777;
+  box-shadow: 0 0 0 0.2rem rgba(43, 103, 119, 0.2);
+}
+
+.custom-form .form-label {
+  font-weight: 500;
+  color: #2B6777;
+}
+
+.custom-form .btn-success {
+  background-color: #2B6777;
+  border: none;
+  font-weight: bold;
+  padding: 10px 0;
+}
+
+.custom-form .btn-success:hover {
+  background-color: #1f4e5c;
+}

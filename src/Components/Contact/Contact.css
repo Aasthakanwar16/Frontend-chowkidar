@@ -1,0 +1,59 @@
+.contact-section {
+  background: url('/img/par.avif') center/cover no-repeat fixed;
+  position: relative;
+  padding: 4rem 0;
+}
+/* Contact.css */
+/* Contact.css *//* Contact.css */
+/* Contact.css */
+
+.contact-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background: linear-gradient(rgba(43, 103, 119, 0.7), rgba(43, 103, 119, 0.7)), 
+              url('/img/par.avif') center/cover no-repeat fixed;
+  min-height: 100vh;
+}
+
+/* Container layout for form and extra content */
+.contact-layout {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  max-width: 900px;
+  width: 100%;
+}
+
+/* Left image or info */
+.contact-side {
+  background-color: #2B6777;
+  color: white;
+  padding: 30px;
+  flex: 1 1 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.contact-side h3 {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.contact-side p {
+  font-size: 16px;
+}
+
+/* Form container */
+.contact-container {
+  flex: 1 1 60%;
+  padding: 30px;
+}
+
+/* Form styles remain same... */

@@ -1,0 +1,88 @@
+footer {
+  background-color: #212529; /* Bootstrap bg-dark ka color */
+  color: #f8f9fa; /* Bootstrap text-light color */
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+  font-family: Arial, sans-serif;
+}
+
+/* Container ke andar spacing */
+footer .container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+/* Footer headings */
+footer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+/* Footer paragraphs */
+footer p, footer ul li a {
+  font-size: 0.9rem;
+  line-height: 1.5;
+  color: #ddd;
+  text-decoration: none;
+}
+
+/* Quick Links list */
+footer ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Links hover effect */
+footer ul li a:hover {
+  color: #ffc107; /* Bootstrap warning yellow */
+  text-decoration: underline;
+}
+
+/* Social icons styling */
+footer .text-center a {
+  color: #f8f9fa;
+  margin-right: 1rem;
+  transition: color 0.3s ease;
+}
+
+footer .text-center a:hover {
+  color: #ffc107;
+}
+
+/* Divider */
+footer hr {
+  border-color: #444;
+  margin: 1rem 0;
+}
+
+/* Mobile (phone) specific styles */
+@media (max-width: 576px) {
+  footer .row {
+    display: block;
+  }
+  
+  footer .col-md-4 {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  
+  footer .text-center a {
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  footer p, footer ul li a {
+    font-size: 0.85rem;
+  }
+
+  footer h5 {
+    font-size: 1.1rem;
+  }
+}

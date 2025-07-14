@@ -1,0 +1,92 @@
+/* Navbar background and shadow */
+.navbar-custom {
+  background: linear-gradient(90deg, #2B6777 0%, #2B6777 100%);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.75rem rem;
+  z-index: 1050; /* Bootstrap's fixed-top uses 1030, so thoda upar rakh diya */
+}
+
+/* Brand styling */
+.navbar-brand {
+  color: #f2ecec !important;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar-brand:hover {
+  color: #ffd700 !important;
+}
+
+/* Nav links */
+.nav-link {
+  color: #ececec !important;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin: 0 0.75rem;
+  position: relative;
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect on nav links */
+.nav-link:hover {
+  color: #ef4a04 !important;
+  transform: scale(1.1);
+}
+
+/* Underline animation on hover */
+.nav-link::after {
+  content: '';
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  left: 0;
+  bottom: -4px;
+  background-color: #ff6f00;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+/* Active nav link */
+.nav-link.active {
+  color: #fe3903 !important;
+  font-weight: 700;
+  border-bottom: 2px solid #ec4f06;
+}
+
+/* Navbar toggler button (hamburger) */
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(1); /* White hamburger icon */
+}
+
+/* Responsive tweaks for small screens */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    background: linear-gradient(180deg, #00416a 0%, #1e3c72 100%);
+    padding: 1rem;
+    border-radius: 8px;
+  }
+
+  .nav-link {
+    font-size: 1.2rem;
+    margin: 0.7rem 0;
+    text-align: center;
+    display: block;
+  }
+
+  .navbar-brand {
+    font-size: 1.4rem;
+  }
+}
