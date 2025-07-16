@@ -12,12 +12,12 @@ const Home = () => (
           alt="Smart Parking"
           className="img-fluid h-100 rounded-4 shadow-lg hero-img"
         />*/}
-        <img
-  src="./img/s.avif"
+  <img
+  src={process.env.PUBLIC_URL + "/img/s.avif"}
   alt="Smart Parking"
   className="img-fluid h-100 rounded-4 shadow-lg hero-img"
 />
-      </div>
+   </div>
 
       {/* Right Column: Text + Button */}
       <div className="col-12 col-md-7 text-white text-center text-md-start">

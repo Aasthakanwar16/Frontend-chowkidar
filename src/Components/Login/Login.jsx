@@ -45,10 +45,15 @@ const url =
     }
   };
 
-  const images = {
+{/*  const images = {
   guard: './img/gurd.jpg',
   admin: './img/admin.webp',
+};*/}
+const images = {
+  guard: process.env.PUBLIC_URL + '/img/gurd.jpg',     
+  admin: process.env.PUBLIC_URL + '/img/admin.webp',   
 };
+
 
 
   return (

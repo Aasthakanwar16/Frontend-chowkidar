@@ -15,11 +15,13 @@ const About = () => (
           alt="SmartChowkidar"
           className="img-fluid about-img shadow-lg"
         />*/}
-        <img
-  src="./img/1234.jpg"
+<img
+  src={process.env.PUBLIC_URL + "/img/1234.jpg"}
   alt="SmartChowkidar"
   className="img-fluid about-img shadow-lg"
 />
+
+
       </div>
       <div className="col-md-7 px-3 px-md-4 login-form">
         <p className="lead about-lead mb-4 text-center text-md-start">
