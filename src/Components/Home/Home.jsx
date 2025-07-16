@@ -6,11 +6,17 @@ const Home = () => (
     <div className="row align-items-center gx-5">
       {/* Left Column: Image */}
       <div className="col-12 col-md-5 mb-4 mb-md-0 text-center">
-        <img
+
+      {/*  <img
           src="/img/s.avif"
           alt="Smart Parking"
           className="img-fluid h-100 rounded-4 shadow-lg hero-img"
-        />
+        />*/}
+        <img
+  src="./img/s.avif"
+  alt="Smart Parking"
+  className="img-fluid h-100 rounded-4 shadow-lg hero-img"
+/>
       </div>
 
       {/* Right Column: Text + Button */}
