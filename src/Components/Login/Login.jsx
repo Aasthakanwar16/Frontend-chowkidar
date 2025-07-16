@@ -46,9 +46,10 @@ const url =
   };
 
   const images = {
-    guard: '/img/gurd.jpg',
-    admin: '/img/admin.webp',
-  };
+  guard: './img/gurd.jpg',
+  admin: './img/admin.webp',
+};
+
 
   return (
     <Container className="d-flex align-items-center justify-content-center min-vh-100 login-bg">
