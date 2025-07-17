@@ -16,7 +16,7 @@ const About = () => (
           className="img-fluid about-img shadow-lg"
         />*/}
 <img
-  src={process.env.PUBLIC_URL + "/img/1234.jpg"}
+  src="/Frontend-chowkidar/img/1234.jpg"
   alt="SmartChowkidar"
   className="img-fluid about-img shadow-lg"
 />

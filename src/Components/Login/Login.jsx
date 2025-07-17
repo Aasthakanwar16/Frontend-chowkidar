@@ -50,9 +50,10 @@ const url =
   admin: './img/admin.webp',
 };*/}
 const images = {
-  guard: process.env.PUBLIC_URL + '/img/gurd.jpg',     
-  admin: process.env.PUBLIC_URL + '/img/admin.webp',   
+  guard: '/Frontend-chowkidar/img/gurd.jpg',
+  admin: '/Frontend-chowkidar/img/admin.webp',
 };
+
 
 
 
